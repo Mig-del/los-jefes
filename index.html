@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+  <script src="/assets/jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Rye&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<header>
+  <img src="./jefes.png" width=350px>
+  <h1>Los Jefes</h1>
+  <h2>Authentic Mexican Cuisine</h2>
+  <ul>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Reservations</a></li>
+    <li><a href="#">Directions</a></li>
+    <li><a href="#">Catering Services</a></li>
+  </ul>
+</header>
+
+<body>
+
+  <div class="first">
+    <p>Jefe's Lunch Special<span class="price">$15</span><br />
+      <small>Five corn tortillas with choice of meat, a side of chips, a local draft beer and shot of tequila.</small>
+    </p>
+  </div>
+
+  <div class="second">
+    <p>Torta de Asada Combo<span class="price">$14</span><br />
+      <small>Asada torta, toasted bread topped with beans, avocado, onions, queso fresco, and spicy salsa. Served with a
+        cold draft beer.</small>
+    </p>
+  </div>
+
+  <div class="third">
+    <p>Burrito<span class="price">$8</span><br />
+      <small>Large flour tortilla, black beans, mexican rice, guacamole, pico de gallo and your choice of meat (Asada,
+        Pastor, Chicken).</small>
+    </p>
+  </div>
+
+
+  <script>
+    $('div').hover(function () {
+      $(this).toggleClass('show-description');
+    });
+  </script>
+
+</body>
