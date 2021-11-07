@@ -1,6 +1,6 @@
 header {
   text-align: center;
-  background: url('./background.jpg');
+  background: url('./assets/background.jpg');
   background-size: cover;
   color: white;
   padding: 0px;
@@ -97,15 +97,15 @@ small {
 }
 
 .first {
-  background-image: url("./Tacos.png");
+  background-image: url("./assets/Tacos.png");
 }
 
 .second {
-  background-image: url("./torta.jpg");
+  background-image: url("./assets/torta.jpg");
 }
 
 .third {
-  background-image: url("./beefsteakburritos.jpg");
+  background-image: url("./assets/beefsteakburritos.jpg");
 }
 
 .price {
